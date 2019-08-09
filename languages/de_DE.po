@@ -1,0 +1,892 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:17
+#@ nori
+msgid "Not Found"
+msgstr "Nichts gefunden"
+
+#: 404.php:21
+#@ nori
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Entschuldigung, aber die Seite konnte leider nicht gefunden werden. Vielleicht findest du ein Ergebnis über die Suchfunktion."
+
+#: archive.php:25
+#@ nori
+msgid "Blog Archives"
+msgstr "Blogarchiv"
+
+#: content-page.php:20
+#: content-single.php:34
+#: content.php:31
+#@ nori
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: comments.php:13
+#@ nori
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dieser Artikel ist Passwort geschützt. Trage das Passwort ein, um die Kommentare zu sehen."
+
+#: content-aside.php:15
+#: content-gallery.php:15
+#: content.php:15
+#, php-format
+#@ nori
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: functions.php:73
+#@ nori
+msgid "Primary Navigation"
+msgstr "Haupt-Navigation"
+
+#: header.php:36
+#, php-format
+#@ nori
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: functions.php:169
+#, php-format
+#@ nori
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:172
+#@ nori
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar befindet sich in Moderation."
+
+#: functions.php:196
+#@ nori
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: search.php:39
+#@ nori
+msgid "Nothing Found"
+msgstr "Keine Einträge gefunden"
+
+#: search.php:43
+#@ nori
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Entschuldigung, leider wurde zu deiner Suchanfrage kein Eintrag gefunden. Bitte versuche es noch einmal mit anderen Schlagwörtern."
+
+#: author.php:16
+#, php-format
+#@ nori
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "Alle Artikel von: <span class=\"vcard\">%s</span>"
+
+#: functions.php:533
+#: functions.php:620
+#: functions.php:896
+#@ nori
+msgid "Title:"
+msgstr "Titel:"
+
+#: footer.php:47
+#, php-format
+#@ nori
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s von %2$s"
+
+#: includes/theme-options.php:147
+#@ default
+msgid "custom_logo"
+msgstr "custom_logo"
+
+#: comments.php:74
+#@ nori
+msgctxt "noun"
+msgid "Message <span class=\"required\">*</span>"
+msgstr "Nachricht <span class=\"required\">*</span>"
+
+#: includes/theme-options.php:64
+#: includes/theme-options.php:65
+#@ nori
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: includes/theme-options.php:110
+#, php-format
+#@ nori
+msgid "%s Theme Options"
+msgstr "%s Theme Optionen"
+
+#: includes/theme-options.php:124
+#@ nori
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#: includes/theme-options.php:127
+#@ nori
+msgid "Select a Color"
+msgstr "Wähle eine Farbe"
+
+#: functions.php:184
+#@ nori
+msgid "Reply"
+msgstr "Antworten"
+
+#: comments.php:75
+#@ nori
+msgid "Send"
+msgstr "Senden"
+
+#: comments.php:63
+#@ nori
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: functions.php:553
+#@ nori
+msgid "Number of photos:"
+msgstr "Anzahl der Bilder:"
+
+#: functions.php:564
+#@ nori
+msgid "User"
+msgstr "Person"
+
+#: functions.php:565
+#@ nori
+msgid "Group"
+msgstr "Gruppe"
+
+#: functions.php:569
+#@ nori
+msgid "Show latest or random pictures:"
+msgstr "Zeige neuste oder zufällige Bilder:"
+
+#: functions.php:571
+#@ nori
+msgid "Latest"
+msgstr "Neuste"
+
+#: functions.php:572
+#@ nori
+msgid "Random"
+msgstr "Zufällige"
+
+#: functions.php:562
+#@ nori
+msgid "Choose user or group:"
+msgstr "Wähle Person oder Gruppe:"
+
+#: footer.php:46
+#@ nori
+msgid "Proudly powered by"
+msgstr "Proudly powered by"
+
+#: functions.php:492
+#@ nori
+msgid "Flickr Widget"
+msgstr "Flickr Widget"
+
+#: functions.php:538
+#@ nori
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+msgstr "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+
+#: functions.php:644
+#@ nori
+msgid "Social Links Widget"
+msgstr "Social Links Widget"
+
+#: functions.php:946
+#@ nori
+msgid "Dribbble URL:"
+msgstr "Dribbble URL:"
+
+#: functions.php:906
+#@ nori
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: functions.php:951
+#@ nori
+msgid "Ffffound URL:"
+msgstr "Ffffound URL:"
+
+#: functions.php:916
+#@ nori
+msgid "Flickr URL:"
+msgstr "Flickr URL:"
+
+#: functions.php:996
+#@ nori
+msgid "Foursquare URL:"
+msgstr "Foursquare URL:"
+
+#: functions.php:1001
+#@ nori
+msgid "Gowalla URL:"
+msgstr "Gowalla URL:"
+
+#: functions.php:986
+#@ nori
+msgid "Grooveshark URL:"
+msgstr "Grooveshark URL:"
+
+#: functions.php:981
+#@ nori
+msgid "Last.fm URL:"
+msgstr "Last.fm URL:"
+
+#: functions.php:1006
+#@ nori
+msgid "Linkedin URL:"
+msgstr "Linkedin URL:"
+
+#: functions.php:921
+#@ nori
+msgid "Picasa URL:"
+msgstr "Picasa URL:"
+
+#: functions.php:976
+#@ nori
+msgid "Slideshare URL:"
+msgstr "Slideshare URL:"
+
+#: functions.php:1021
+#@ nori
+msgid "Tumblr URL:"
+msgstr "Tumblr URL:"
+
+#: functions.php:901
+#@ nori
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#: functions.php:941
+#@ nori
+msgid "Vimeo URL:"
+msgstr "Vimeo URL:"
+
+#: functions.php:1016
+#@ nori
+msgid "WordPress URL:"
+msgstr "WordPress URL:"
+
+#: functions.php:1011
+#@ nori
+msgid "Xing URL:"
+msgstr "Xing URL:"
+
+#: functions.php:936
+#@ nori
+msgid "YouTube URL:"
+msgstr "YouTube URL:"
+
+#: functions.php:961
+#@ nori
+msgid "Zootool URL:"
+msgstr "Zootool URL:"
+
+#: includes/theme-options.php:146
+#@ nori
+msgid "Custom Logo image"
+msgstr "Eigenes Logobild"
+
+#: includes/theme-options.php:171
+#: includes/theme-options.php:173
+#@ nori
+msgid "Custom Favicon"
+msgstr "Eigenes Favicon"
+
+#: includes/theme-options.php:174
+#@ default
+msgid "custom_favicon"
+msgstr "custom_favicon"
+
+#: includes/theme-options.php:175
+#@ nori
+msgid "Create a favicon image e.g. with <a href=\"http://www.faviconr.com/\" target=\"_blank\">Faviconr</a>, upload your .ico Favicon image (via FTP) to your server and enter the Favicon URL here."
+msgstr "Erstelle zuerst ein Favicon-Bild z.B. mit Hilfe von <a href=\"http://www.faviconr.com/\" target=\"_blank\">Faviconr</a>. Lade dieses .ico Faviconbild dann (via FTP) auf deinen Server hoch und trage die Datei URL hier ein."
+
+#: includes/theme-options.php:164
+#@ nori
+msgid "Custom Footer text"
+msgstr "Footer Text anpassen"
+
+#: includes/theme-options.php:166
+#@ nori
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Trage deinen eigenen Footer-Text ein. Standard HTML-Code ist möglich."
+
+#: functions.php:911
+#@ nori
+msgid "Google+ URL:"
+msgstr "Google+ URL:"
+
+#: functions.php:1026
+#@ nori
+msgid "RSS-Feed URL:"
+msgstr "RSS-Feed URL:"
+
+#: functions.php:1031
+#@ nori
+msgid "RSS for Comments URL:"
+msgstr "RSS für Kommentare URL:"
+
+#: content-aside.php:33
+#: content-gallery.php:33
+#: content-image.php:29
+#: content-link.php:29
+#: content-quote.php:29
+#: content-single.php:25
+#: content-status.php:29
+#: content-video.php:29
+#: content.php:49
+#: image.php:20
+#@ nori
+msgid "0 comments"
+msgstr "0 Kommentare"
+
+#: content-aside.php:33
+#: content-gallery.php:33
+#: content-image.php:29
+#: content-link.php:29
+#: content-quote.php:29
+#: content-single.php:25
+#: content-status.php:29
+#: content-video.php:29
+#: content.php:49
+#: image.php:20
+#@ nori
+msgid "1 comment"
+msgstr "1 Kommentar"
+
+#: content-aside.php:33
+#: content-gallery.php:33
+#: content-image.php:29
+#: content-link.php:29
+#: content-quote.php:29
+#: content-single.php:25
+#: content-status.php:29
+#: content-video.php:29
+#: content.php:49
+#: image.php:20
+#@ nori
+msgid "% comments"
+msgstr "% Kommentare"
+
+#: content-aside.php:33
+#: content-gallery.php:33
+#: content-image.php:29
+#: content-link.php:29
+#: content-quote.php:29
+#: content-single.php:25
+#: content-status.php:29
+#: content-video.php:29
+#: content.php:49
+#: image.php:20
+#@ nori
+msgid "comments off"
+msgstr "Kommentare deaktiviert"
+
+#: search.php:16
+#, php-format
+#@ nori
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: includes/theme-options.php:184
+#@ nori
+msgid "Check this box to include a post short URL, Twitter, Facebook and Google+ button on the blogs front page and on single post pages."
+msgstr "Wähle diese Option, um eine Kurz-URL, einen Twitter, Facebook und Google+ Button auf der Blog-Startseite und auf Artikel-Einzelseiten anzuzeigen."
+
+#: includes/theme-options.php:193
+#@ nori
+msgid "Check this box to include the share post buttons <strong>only</strong> on single post pages."
+msgstr "Wähle diese Option, um die Teilen-Button nur auf Artikel-Einzelseiten anzuzeigen."
+
+#: functions.php:74
+#@ nori
+msgid "Optional Footer Navigation (no sub menus supported)"
+msgstr "Optionale Footer Navigation (es werden keine Untermenüpunkte unterstützt)"
+
+#. translators: 1: date, 2: time
+#: functions.php:180
+#, php-format
+#@ nori
+msgid "%1$s &#64; %2$s"
+msgstr "%1$s &#64; %2$s"
+
+#: comments.php:29
+#, php-format
+#@ nori
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: comments.php:72
+#@ nori
+msgid "<p class=\"comment-note\">Required fields are marked <span class=\"required\">*</span>.</p>"
+msgstr "<p class=\"comment-note\">Pflichtfelder sind mit <span class=\"required\">*</span> markiert.</p>"
+
+#: content-aside.php:27
+#: content-gallery.php:27
+#: content-image.php:23
+#: content-link.php:23
+#: content-quote.php:23
+#: content-single.php:20
+#: content-status.php:23
+#: content-video.php:23
+#: content.php:43
+#, php-format
+#@ nori
+msgid "<a href=\"%1$s\" title=\"%2$s\">%3$s</a>"
+msgstr "<a href=\"%1$s\" title=\"%2$s\">%3$s</a>"
+
+#: functions.php:543
+#@ nori
+msgid "Flickr Profile Link Text:"
+msgstr "Flickr-Profil Link-Text:"
+
+#: functions.php:548
+#@ nori
+msgid "Flickr Profile URL:"
+msgstr "Flickr-Profil URL:"
+
+#: functions.php:926
+#@ nori
+msgid "500px URL:"
+msgstr "500px URL:"
+
+#: functions.php:931
+#@ nori
+msgid "Delicious URL:"
+msgstr "Delicious URL:"
+
+#: functions.php:966
+#@ nori
+msgid "Behance Network URL:"
+msgstr "Behance Network URL:"
+
+#: functions.php:971
+#@ nori
+msgid "Squidoo URL:"
+msgstr "Squidoo URL:"
+
+#: functions.php:991
+#@ nori
+msgid "Soundcloud URL:"
+msgstr "Soundcloud URL:"
+
+#: sidebar.php:15
+#@ nori
+msgid "Archives"
+msgstr "Archiv"
+
+#: sidebar.php:22
+#@ nori
+msgid "Meta"
+msgstr "Meta"
+
+#: functions.php:590
+#@ nori
+msgid "Video Widget"
+msgstr "Video Widget"
+
+#: functions.php:625
+#@ nori
+msgid "Video embed code:"
+msgstr "Video-Einbettungscode:"
+
+#: functions.php:1036
+#@ nori
+msgid "Open all links in a new browser tab"
+msgstr "Öffne alle Social-Links in einem neuen Browser-Tab"
+
+#: header.php:75
+#@ nori
+msgid "Menu"
+msgstr "Menü"
+
+#: functions.php:956
+#@ nori
+msgid "Pinterest URL:"
+msgstr "Pinterest URL:"
+
+#: content-aside.php:25
+#: content-gallery.php:25
+#: content-image.php:21
+#: content-link.php:21
+#: content-quote.php:21
+#: content-status.php:21
+#: content-video.php:21
+#: content.php:41
+#@ nori
+msgid "Posted by"
+msgstr "Veröffentlicht von"
+
+#: content-aside.php:29
+#: content-gallery.php:29
+#: content-image.php:25
+#: content-link.php:25
+#: content-quote.php:25
+#: content-single.php:22
+#: content-status.php:25
+#: content-video.php:25
+#: content.php:45
+#, php-format
+#@ nori
+msgid "All posts by %s"
+msgstr "Alle Artikel von %s"
+
+#: content-aside.php:19
+#: content-gallery.php:19
+#: content-image.php:15
+#: content-link.php:15
+#: content-quote.php:15
+#: content-status.php:15
+#: content-video.php:15
+#: content.php:30
+#@ nori
+msgid "Continue Reading"
+msgstr "Weiterlesen"
+
+#: footer.php:13
+#: footer.php:51
+#@ nori
+msgid "Top"
+msgstr "Top"
+
+#: footer.php:46
+#@ nori
+msgid "WordPress"
+msgstr "WordPress"
+
+#: functions.php:211
+#@ nori
+msgid "Main Widget Area"
+msgstr "Haupt-Widgetbereich"
+
+#: functions.php:240
+#@ nori
+msgid "Search this site..."
+msgstr "Suche..."
+
+#: functions.php:241
+#@ nori
+msgid "Submit"
+msgstr "Senden"
+
+#: functions.php:274
+#@ nori
+msgid "mm"
+msgstr "mm"
+
+#: archive.php:44
+#: author.php:33
+#: category.php:34
+#: index.php:26
+#: search.php:28
+#: tag.php:31
+#@ nori
+msgid "Older posts"
+msgstr "Ältere Artikel"
+
+#: archive.php:45
+#: author.php:34
+#: category.php:35
+#: index.php:27
+#: search.php:29
+#: tag.php:32
+#@ nori
+msgid "Newer posts"
+msgstr "Neuere Artikel"
+
+#: archive.php:19
+#, php-format
+#@ nori
+msgid "Day: <span>%s</span>"
+msgstr "Tag: <span>%s</span>"
+
+#: archive.php:21
+#, php-format
+#@ nori
+msgid "Month: <span>%s</span>"
+msgstr "Monat: <span>%s</span>"
+
+#: archive.php:23
+#, php-format
+#@ nori
+msgid "Year: <span>%s</span>"
+msgstr "Jahr: <span>%s</span>"
+
+#: category.php:14
+#, php-format
+#@ nori
+msgid "Category: %s"
+msgstr "Kategorie: %s"
+
+#: comments.php:47
+#@ nori
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: comments.php:48
+#@ nori
+msgid "Older Comments"
+msgstr "Ältere Kommentare"
+
+#: content-aside.php:34
+#: content-gallery.php:34
+#: content-image.php:30
+#: content-link.php:30
+#: content-page.php:30
+#: content-quote.php:30
+#: content-single.php:57
+#: content-status.php:30
+#: content-video.php:30
+#: content.php:50
+#: image.php:83
+#@ nori
+msgid "Edit this post"
+msgstr "Artikel bearbeiten"
+
+#: content-single.php:18
+#@ nori
+msgid "by"
+msgstr "von"
+
+#: content-single.php:42
+#, php-format
+#@ nori
+msgid "Posted by %s"
+msgstr "Veröffentlicht von %s"
+
+#: content-single.php:52
+#@ nori
+msgid "Category:"
+msgstr "Kategorie:"
+
+#: content-single.php:55
+#@ nori
+msgid "Tags:"
+msgstr "Schlagwort:"
+
+#: functions.php:111
+#@ nori
+msgid "Continue reading"
+msgstr "Weiterlesen"
+
+#: functions.php:197
+#@ nori
+msgid "Edit pingback"
+msgstr "Pingback bearbeiten"
+
+#: functions.php:266
+#@ nori
+msgid "<li>Taken on:"
+msgstr "<li>Aufgenommen am:"
+
+#: functions.php:269
+#@ nori
+msgid "</li> <li>Camera:"
+msgstr "</li> <li>Kamera:"
+
+#: functions.php:272
+#@ nori
+msgid "</li> <li> Focal Length:"
+msgstr "</li> <li> Brennweite:"
+
+#: functions.php:276
+#@ nori
+msgid "</li> <li> Aperture:"
+msgstr "</li> <li> Blende:"
+
+#: functions.php:279
+#@ nori
+msgid "</li> <li> ISO Speed:"
+msgstr "</li> <li> ISO-Empfindlichkeit:"
+
+#: functions.php:282
+#@ nori
+msgid "</li> <li> Exposure:"
+msgstr "</li> <li> Belichtung:"
+
+#: functions.php:283
+#@ nori
+msgid "sec</li>"
+msgstr "sec</li>"
+
+#: image.php:71
+#, php-format
+#@ nori
+msgid ""
+"<li class=\"image-size\">Image Size: <a href=\"%3$s\" title=\"Link to full-size image\">%4$s&times;%5$s pixels</a> </li>\n"
+"\t\t\t\t\t\t<li>Posted in: <a href=\"%6$s\" title=\"%7$s\">%7$s</a></li>"
+msgstr ""
+"<li class=\"image-size\">Bildgröße: <a href=\"%3$s\" title=\"Link to full-size image\">%4$s&times;%5$s Pixel</a> </li>\n"
+"\\\\\\\t\\\\\\\t\\\\\\\t\\\\\\\t\\\\\\\t\\\\\\\t<li>Veröffentlicht in: <a href=\"%6$s\" title=\"%7$s\">%7$s</a></li>"
+
+#: image.php:92
+#@ nori
+msgid "Next Image"
+msgstr "Nächstes Bild"
+
+#: image.php:93
+#@ nori
+msgid "Previous Image"
+msgstr "Vorheriges Bild"
+
+#: includes/theme-options.php:122
+#@ nori
+msgid "Custom Link Color"
+msgstr "Eigene Linkfarbe"
+
+#: includes/theme-options.php:130
+#, php-format
+#@ nori
+msgid "default link color: %s"
+msgstr "Standard-Linkfarbe: %s"
+
+#: includes/theme-options.php:135
+#: includes/theme-options.php:137
+#@ nori
+msgid "White Font Color"
+msgstr "weiße Schriftfarbe"
+
+#: includes/theme-options.php:139
+#@ nori
+msgid "Check this box to set white as the standard text color (use in combination with the custom background option, see Appearance / Background)."
+msgstr "Wähle diese Option, um eine weiße Standard-Schriftfarbe zu nutzen (verwende die Option in Kombination mit einem Hintergrund, siehe Design / Hintergrund)."
+
+#: includes/theme-options.php:144
+#@ nori
+msgid "Custom Logo"
+msgstr "Eigenes Logo"
+
+#: includes/theme-options.php:153
+#@ nori
+msgid "Hide Search Form"
+msgstr "Deaktiviere Suchformular"
+
+#: includes/theme-options.php:155
+#@ nori
+msgid "Hide search form"
+msgstr "Deaktiviere Suchformular"
+
+#: includes/theme-options.php:157
+#@ nori
+msgid "Check this box to hide the search form in the header and at the bottom of the main menu on mobile devices."
+msgstr "Wähle diese Option, um das Standard-Suchformular im Header und unterhalb der Hauptnavigation auf mobilen Geräten zu verbergen."
+
+#: includes/theme-options.php:162
+#@ nori
+msgid "Custom Footer Text"
+msgstr "Eigener Footertext"
+
+#: includes/theme-options.php:180
+#: includes/theme-options.php:182
+#@ nori
+msgid "Share option for posts"
+msgstr "Teilen-Buttons für Artikel"
+
+#: includes/theme-options.php:189
+#: includes/theme-options.php:191
+#@ nori
+msgid "Share option for single post pages only"
+msgstr "Teilen-Buttons nur auf Einzelartikel-Seiten"
+
+#: includes/theme-options.php:198
+#: includes/theme-options.php:200
+#@ nori
+msgid "Share option for pages"
+msgstr "Teilen-Buttons für Seiten"
+
+#: includes/theme-options.php:202
+#@ nori
+msgid "Check this box to include the share option on pages."
+msgstr "Wähle diese Option, um Teilen-Buttons auch auf Seiten zu integrieren."
+
+#: share.php:13
+#@ nori
+msgid "Tweet"
+msgstr "Twitter"
+
+#: single.php:22
+#@ nori
+msgid "Next Post"
+msgstr "Nächster Artikel"
+
+#: single.php:23
+#@ nori
+msgid "Previous Post"
+msgstr "Vorheriger Artikel"
+
+#: tag.php:14
+#, php-format
+#@ nori
+msgid "Tag: %s"
+msgstr "Schlagwort: %s"
+
+#: functions.php:213
+#@ nori
+msgid "Main widget area (below the post and pages content)."
+msgstr "Haupt-Widgetbereich (unterhalb des Artikel- und Seitenbereichs)."
+
+#: functions.php:223
+#@ nori
+msgid "Optional widget area for additional widgets below the main site navigation."
+msgstr "Optionaler Widgetbereich für zusätzliche Widgets unterhalb der Hauptnavigation."
+
+#: functions.php:221
+#@ nori
+msgid "Optional Widget Area"
+msgstr "Optionaler Widgetbereich"
+
+#: includes/theme-options.php:148
+#@ nori
+msgid "Upload your own logo image (image width should be 320 pixels) using the "
+msgstr "Lade dein eigenes Logobild hoch (die Breite des Bildes sollte 320 Pixel sein) und nutze dafür die "
+
+#: includes/theme-options.php:148
+#@ nori
+msgid "WordPress Media Uploader"
+msgstr "WordPress Mediathek"
+
+#: includes/theme-options.php:148
+#@ nori
+msgid ". Copy your logo image file URL and insert the URL here."
+msgstr " .Kopiere die Bild URL deines Logos und füge die URL hier ein."
+
+#: functions.php:184
+#@ nori
+msgid "&#183; "
+msgstr "&#183; "
+
+#: functions.php:185
+#@ nori
+msgid "&#183; Edit comment"
+msgstr "&#183; Kommentar bearbeiten"
+
+#: footer.php:76
+#@ nori
+msgid "en_US"
+msgstr "de_DE"
+
