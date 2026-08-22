@@ -244,8 +244,8 @@ add_filter( 'get_search_form', 'nori_search_form' );
 /**
  * Removes the default CSS style from the WP image gallery
  */
-add_filter('gallery_style', create_function('$a', 'return "
-<div class=\'gallery\'>";'));
+add_filter('gallery_style', function($a) { return "
+<div class='gallery'>"; });
 
 /*-----------------------------------------------------------------------------------*/
 /* Grab the exif data from wp attachment
