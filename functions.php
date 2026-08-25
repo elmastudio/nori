@@ -496,6 +496,7 @@ class nori_flickr extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'linktext' => '', 'linkurl' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$id = $instance['id'];
@@ -523,6 +524,7 @@ class nori_flickr extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'linktext' => '', 'linkurl' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		$title = esc_attr($instance['title']);
 		$id = esc_attr($instance['id']);
 		$linktext = esc_attr($instance['linktext']);
@@ -595,6 +597,7 @@ class nori_video extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'embedcode' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$embedcode = $instance['embedcode'];
@@ -616,6 +619,7 @@ class nori_video extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'embedcode' => '' ) );
 		$title = esc_attr($instance['title']);
 		$embedcode = esc_attr($instance['embedcode']);
 		?>
@@ -650,6 +654,7 @@ register_widget('nori_video');
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'flickr' => '', 'picasa' => '', 'fivehundredpx' => '', 'delicious' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'zootool' => '', 'behance' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'gowalla' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '', 'target' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$twitter = $instance['twitter'];
@@ -865,6 +870,7 @@ register_widget('nori_video');
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'flickr' => '', 'picasa' => '', 'fivehundredpx' => '', 'delicious' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'zootool' => '', 'behance' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'gowalla' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '', 'target' => '' ) );
 		$title = esc_attr($instance['title']);
 		$twitter = esc_attr($instance['twitter']);
 		$facebook = esc_attr($instance['facebook']);
@@ -1046,3 +1052,14 @@ register_widget('nori_video');
 }
 
 register_widget('nori_sociallinks');
+
+/* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
+function nori_php8_option_defaults( $options = array() ) {
+	$fallback = array_fill_keys( array( 'share-posts', 'share-pages', 'header_search', 'custom_footertext', 'share-singleposts', 'link_color', 'white_font', 'custom_logo', 'custom_favicon' ), '' );
+	if ( function_exists( 'nori_get_default_theme_options' ) ) {
+		$fallback = array_merge( $fallback, (array) nori_get_default_theme_options() );
+	}
+	return wp_parse_args( is_array( $options ) ? $options : array(), $fallback );
+}
+add_filter( 'default_option_nori_theme_options', 'nori_php8_option_defaults' );
+add_filter( 'option_nori_theme_options', 'nori_php8_option_defaults' );
